@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --clr-primary-1: hsl(233, 26%, 24%) ;
+  --clr-primary-2: hsl(136, 65%, 51%);
+  --clr-primary-3: hsl(192, 70%, 51%);
+
+  --clr-neutral-1: hsl(233, 8%, 62%);
+  --clr-neutral-2: hsl(220, 16%, 96%);
+  --clr-neutral-3: hsl(0, 0%, 98%);
+
+  --fw-light: 300;
+  --fw-medium:400;
+  --fw-bold: 700;
+
+ 
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  background-color: var(--clr-neutral-3);
+}
+
+h2{
+  width: 75%;
+  color: rgba(0,0,0,0.7);
+  font-weight: var(--fw-medium);
+  font-size: 1.9rem;
+  line-height: 2rem;
+  margin: 0 auto;
+}
+
+h3{
+  color: rgba(0,0,0,0.7);
+  font-weight: var(--fw-bold);
+}
+
+h4{
+  color: rgba(0,0,0,0.7);
+  font-weight: var(--fw-bold);
+  line-height: 1.3rem;
+}
+
+.invite-btn{
+  padding: 15px 30px;
+  border:0;
+  font-size: 1.2rem;
+  border-radius: 50vw;
+  color: white;
+  background-image: linear-gradient(to right, var(--clr-primary-2) , var(--clr-primary-3));
 }

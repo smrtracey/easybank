@@ -1,0 +1,38 @@
+.latest{
+    padding: 70px 0;
+}
+
+.latest h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.latest-section{
+    width: 85%;
+    margin: 15px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;  
+}
+
+.latest-section img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.article-text{
+    width: 85%;
+    margin:0 auto;
+}
+
+.author-tag{
+    font-weight: var(--fw-light);
+    font-size: .7rem;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 5px;
+}
+
+.latest-section p{
+    margin-top: 5px;
+    font-size: .8rem;
+}

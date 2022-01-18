@@ -1,0 +1,24 @@
+.why-choose{
+    background: var(--clr-neutral-2);
+    text-align: center;
+    padding:70px 0;
+}
+
+.why-choose-main-p{
+    width: 85%;
+    margin:20px auto;
+}
+
+
+.why-choose section{
+    width: 90%;
+    margin: 35px auto;
+}
+
+
+
+
+section img{
+    margin-bottom: 20px;
+}
+
