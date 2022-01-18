@@ -14,7 +14,7 @@ const LatestArticles = () => {
             <div className='latest-content'>
             <h2>Latest Articles</h2>
 
-                                
+            <div className='articles-wrapper'>         
             <section className='latest-section'>
                 <img src ={cash} alt = 'cash'/>
                 <div className='article-text'>
@@ -61,7 +61,7 @@ const LatestArticles = () => {
                     It’s easy to request an invite through the site ...</p>
                 </div>
             </section>
-
+            </div>  
                 
         </div>
     </div>

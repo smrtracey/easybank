@@ -11,13 +11,13 @@ const WhyChoose = () => {
     return (
         <div className='why-choose'>
             
-            <section>
+            
                 <h2> Why choose Easybank?</h2>
 
                 <p className='why-choose-main-p'>We leverage Open Banking to turn your bank account into your financial hub. Control 
                 your finances like never before.</p>
-            </section>
             
+            <div className='section-wrapper'>
             <section>
                 <img src ={online} alt ='online'/>
                 <h3>Online Banking</h3>
@@ -51,7 +51,7 @@ const WhyChoose = () => {
                <p> Manage your savings, investments, pension, and much more from one account. Tracking 
                 your money has never been easier.</p>
             </section>
-            
+            </div>
         </div>
     )
 }

@@ -18,7 +18,45 @@
 
 
 
+
 section img{
     margin-bottom: 20px;
+}
+
+@media(min-width:1000px){
+
+    .why-choose{
+        padding: 70px 0;
+    }
+
+    .why-choose h2{
+        width: auto;
+        color: var(--clr-primary-1);
+        text-align: left;
+        font-weight: var(--fw-medium);
+        font-size: 2.5rem;
+        line-height: 2rem;
+        margin-left: 10% ;
+    }
+
+    .why-choose-main-p{
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin-left: 10% ;
+        width: 40%;
+    }
+
+    .section-wrapper{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+
+    .section-wrapper section{
+        text-align: left;
+    }
 }
 

@@ -38,3 +38,9 @@
     font-size: 1.2rem;
     color:rgba(0,0,0, 0.6);
 }
+
+@media(min-width:1000px){
+    .header{
+        position: sticky;
+    }
+}
